@@ -5,6 +5,7 @@ body{
 
 
 h1{
+    background-image: linear-gradient(to left, red, blue);
     color: white;
     text-align: center;
     font-size:  100px; ;
@@ -14,6 +15,10 @@ h1{
     font-family: 'Ms Madi', cursive;
     font-family: 'My Soul', cursive;
     font-family: 'Pacifico', cursive;
+}
+
+.animacion{
+    animation-name: titulo-movimiento;
 }
 
 h2{
@@ -34,11 +39,14 @@ h2{
 
 nav ul li a{
     text-decoration: none;
+}    
+
+.caja:hover{
+    text-align: center;
+    transform: scale(2);
 }
 
-nav ul li{
-    text-align: center;
-}
+
 
 main {
     text-align: center;
